@@ -9,12 +9,7 @@ function Button() {
     conatiner.appendChild(button);
     
 
-    //row creation and append
-    let section = document.createElement('section');
-    section.className = 'row';
-    container.appendChild(section);
-
-
+    //needs square button context
 
     //adding listener
     button.addEventListener('click', () => {
@@ -28,4 +23,8 @@ function Button() {
         //addEventListener(mouseover)
         //addEventListener
     
+
+
+    //random colors function
+    let randoColor = function () {}
 };
